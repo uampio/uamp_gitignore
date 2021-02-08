@@ -1,3 +1,39 @@
+# Directories
+bin/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
 # gitignore template for TwinCAT3
 # website: https://www.beckhoff.com/twincat3/
 #
@@ -23,3 +59,10 @@ _Boot/
 _CompileInfo/
 _Libraries/
 _ModuleInstall/ 
+.vs/
+#Twincat HMI
+*.lock
+#Twincat looger HMI
+logger.db
+logger.db-journal
+TcHmiSrv.lock.pid
